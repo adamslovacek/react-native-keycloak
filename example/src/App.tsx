@@ -10,6 +10,7 @@ const keycloak = new RNKeycloak({
   url: 'http://keycloak-server/auth',
   realm: 'kc-realm',
   clientId: 'web',
+  clientSecret: '',
 });
 
 export default function App() {
