@@ -11,6 +11,7 @@ const keycloak = new RNKeycloak({
   realm: 'kc-realm',
   clientId: 'web',
   clientSecret: '',
+  scope: '',
 });
 
 export default function App() {
